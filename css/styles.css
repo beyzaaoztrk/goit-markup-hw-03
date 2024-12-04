@@ -120,7 +120,7 @@ a {
 }
 .sel-li {
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
+    width: calc((100%-72px)/4);
     border-radius: 0px 0px 4px 4px;
 }
 .masa {
@@ -215,13 +215,13 @@ img {
     gap: 24px;
 }
 .umle-e {
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100%-72px)/4);
 }
 .ret-r {
     display: flex;
     gap: 24px;
 }
-.masa_lii {
+.masa-lii {
     padding: 32px 0;
 }
 .cay-y {
@@ -234,9 +234,9 @@ img {
     row-gap: 48px;
 }
 .goz-l {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100%-3*24px)/4);
 }
-.bas_alpo {
+.bas-alpo {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
@@ -251,6 +251,18 @@ img {
     overflow: hidden; 
     clip: rect(0, 0, 0, 0); 
     border: 0;
+    left: 0;
+    top: 0;
+    box-sizing: 0;
+    display: none;
+    align-items: normal;
+    flex-direction: inherit;
+    gap: 0;
+    border-radius: 0;
+    box-shadow: none;
+    order: inherit;
+    flex-grow: inherit;
+    border-bottom: none;
 }
 .bag-ilk {
     line-height: 1.17;
