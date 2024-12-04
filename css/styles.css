@@ -1,0 +1,245 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.kere_e {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-decoration: underline;
+    color: white; 
+    background-color: #4D5AE5;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+}
+
+.kere_e:hover {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4px;
+    text-decoration: underline;
+    color: white; 
+    background-color: #404BBF;
+}
+.kere_e:focus {
+    background-color: #404BBF;
+}
+
+a {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.spann-1 {
+    color: #2e2f42;
+}
+
+.ilk-liste {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0;
+}
+.ilk-liste:hover {
+    color: #404bbf;
+}
+.ilk-liste:focus {
+    color: #404bbf;
+}
+.ilk-adres {
+    font-style: normal;
+}
+.ilk-li {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.ilk-li:hover {
+    color: #404bbf;
+}
+.ilk-li:focus {
+    color: #404bbf;
+}
+
+.ber_r {
+    background-color: #2e2f42;
+    padding: 188px 0;
+}
+.ilke_e {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    max-width: 496px;
+}
+.lil_l {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+.ilk-p {
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.sell_l {
+    background-color: #f4f4fd;
+    padding: 120px 0;
+}
+.ore-tm {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+.sel-li {
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-top-left-radius: 0px; border-top-right-radius: 0px; border-top-right-radius: 4px; border-bottom-left-radius: 4px;
+}
+.masa_a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.lii-p {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: #434455;
+    text-align: center;
+}
+.papi_i {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+.bas_s {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: #2e2f42; 
+}
+.alpo_o {
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.fter_r {
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
+.ilk-bag {
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
+
+}
+.sppe_e {
+    color: #F4F4FD;
+}
+.son-p {
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    max-width: 264px;
+}
+img {
+    display: block;
+}
+.head-d {
+    border-bottom: 1px solid #e7e9fc
+}
+.container {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav-e {
+    display: flex;
+    align-items: center;
+}
+.ule-e {
+    display: flex;
+    gap: 40px;
+}
+.beyz-a {
+    display: flex;
+    gap: 40px;
+}
+.tabi-i {
+    padding: 120px 0;
+}
+.ule-a {
+    display: flex;
+    gap: 24px;
+}
+.umle-a {
+    width: calc((100% - 72px) / 4);
+}
+.ret-r {
+    display: flex;
+    gap: 24px;
+}
+.unva-n {
+    padding: 32px 0;
+}
+.cay-y {
+    padding: 120px 0;
+}
+.pir-e {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.goz-l {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.uyg-u {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
