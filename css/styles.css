@@ -120,7 +120,7 @@ a {
 }
 .sel-li {
     background-color: #FFFFFF;
-    width: calc((100%-72px)/4);
+    width: calc((100%-3*24px)/4);
     border-radius: 0px 0px 4px 4px;
 }
 .masa {
@@ -196,7 +196,6 @@ img {
     margin: 0 auto;
     padding: 0 15px;
     border-top: none;
-    margin-bottom: 8px;
 }
 .nav-e {
     display: flex;
@@ -218,7 +217,7 @@ img {
     gap: 24px;
 }
 .umle-e {
-    width: calc((100%-72px)/4);
+    width: calc((100%-3*24px)/4);
 }
 .ret-r {
     display: flex;
@@ -237,7 +236,7 @@ img {
     row-gap: 48px;
 }
 .goz-l {
-    width: calc((100%-72px)/4);
+    width: calc((100%-3*24px)/4);
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     margin-bottom: 8px;
@@ -250,28 +249,9 @@ img {
     margin-bottom: 8px;
 }
 .visually-hidden {
-    position: absolute; 
-    width: 0; 
-    height: 0; 
-    margin: 0; 
-    padding: 0; 
-    overflow: hidden; 
-    clip: rect(0, 0, 0, 0); 
-    border: 0;
-    left: 0;
-    top: 0;
-    box-sizing: 0;
     display: none;
-    align-items: normal;
-    flex-direction: inherit;
-    gap: 0;
-    border-radius: 0;
-    box-shadow: none;
-    order: inherit;
-    flex-grow: inherit;
-    border-bottom: none;
 }
-.bag-ilk {
+.fter_r .bag-ilk {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
