@@ -120,8 +120,8 @@ a {
 }
 .sel-li {
     background-color: #FFFFFF;
-    width: calc((100%-3*24px)/4);
     border-radius: 0px 0px 4px 4px;
+    width: calc((100%-72px) / 4);
 }
 .masa {
     font-weight: 500;
@@ -217,7 +217,7 @@ img {
     gap: 24px;
 }
 .umle-e {
-    width: calc((100%-3*24px)/4);
+    width: calc((100%-72px) / 4);
 }
 .ret-r {
     display: flex;
@@ -249,7 +249,16 @@ img {
     margin-bottom: 8px;
 }
 .visually-hidden {
-    display: none;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 .fter_r .bag-ilk {
     line-height: 1.17;
